@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'r809.OCLauncher.OCLauncher'
+    }
+}
+sourceSets {
+    main {
+        java {
+            srcDirs 'src'
+        }
+    }
+}
