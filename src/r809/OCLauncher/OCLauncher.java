@@ -19,8 +19,15 @@
 */
 package r809.OCLauncher;
 
+import static org.lwjgl.glfw.GLFW.*;
+import static org.lwjgl.opengl.GL11.*;
+
+import org.lwjgl.opengl.GL;
+
 public class OCLauncher{
+
     public static void main(String[] args){
      
     }
+
 }
